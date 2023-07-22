@@ -13,5 +13,23 @@ logic.wall_in_front()   Returns [True] if the player is facing a wall, [False] o
 
 =========================
 '''
-
+#TODO: mainloop sucks
 #Use this space to solve maze 1 :)
+logic.move_forward()
+logic.turn_left()
+logic.move_forward()
+logic.move_forward()
+logic.turn_right()
+logic.move_forward()
+logic.move_forward()
+logic.turn_left()
+logic.move_forward()
+logic.move_forward()
+logic.turn_left()
+logic.move_forward()
+logic.turn_right()
+logic.move_forward()
+logic.turn_left()
+logic.move_forward()
+logic.move_forward()
+logic.move_forward()

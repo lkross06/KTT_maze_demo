@@ -176,6 +176,7 @@ class Logic:
         elif self.pdir == "south":
             self.pdir = "east"
 
+        sleep(1)
         self._redraw()
 
     def turn_right(self):
@@ -188,6 +189,7 @@ class Logic:
         elif self.pdir == "north":
             self.pdir = "east"
 
+        sleep(1)
         self._redraw()
 
     def move_forward(self):
@@ -218,6 +220,7 @@ class Logic:
         else:
             self.win = False
 
+        sleep(1)
         self._redraw()
 
     def wall_in_front(self):
